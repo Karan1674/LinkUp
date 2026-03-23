@@ -4,7 +4,7 @@ const postsdata = [
       id: 1,
       username: 'TechWhizKid',
       text: 'Love For All, Hatred For None',
-      photo: 'Assets(Images)/post1.jpg',
+      photo: 'Assets(Images)/Post1.jpg',
       time: '5 min ago',
       like: 32,
       comment: 2,
