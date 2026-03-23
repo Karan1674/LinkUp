@@ -1,0 +1,76 @@
+.HeroContainer {
+    display: flex;
+    width: 100%;
+    
+}
+
+@media (max-width:768px) {
+
+.hidhero{
+    display: none;
+}
+
+.homeSmallScreen{
+    margin: 5px 0;
+    margin-bottom: 80px;
+}
+
+    .HeroContainer {
+        flex-direction: column;
+        display: none;
+    }
+
+    .homefriend{
+        display: block;
+    }
+
+    .homefriend .sidebarfriends{
+        display: flex;
+        margin-top: 20px;
+        overflow: hidden;
+        gap: 20px;
+        align-items: center;
+        padding-inline: 20px;
+    }
+
+    .homefriend .friend {
+        margin-top: 15px;
+        user-select: none;
+    }
+
+    .homefriend  .friendimage {
+        width: 70px;
+        height: 70px;
+        /* border: 2px solid #141E30; */
+        outline: 2px solid #141E30;
+        outline-offset: 5px;
+        border-radius: 50%;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    .homefriend .friendname {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .homefriend .sidebarfriends{
+        margin-top: 10px;
+        gap: 6px;
+    }
+
+   .homefriend .friendimage{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+@media (min-width:780px) {
+    .routemiddle {
+        display: none;
+    }
+
+}

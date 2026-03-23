@@ -1,0 +1,153 @@
+.post {
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.post-wrapper {
+    padding: 20px;
+
+}
+
+.post-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posttop-left {
+    display: flex;
+    align-items: center;
+}
+
+.postprofileimage {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postusername {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.posttime {
+    font-size: 13px;
+}
+
+
+.postcenter {
+    margin: 20px 0;
+}
+
+.posttext{
+    word-wrap: break-word;
+}
+
+.postimage {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    user-select: none;
+    pointer-events: none;
+}
+
+.postbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postbottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.posticoncontainer {
+    border-radius: 50%;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.posticon {
+    font-size: 25px;
+}
+
+
+.likeicon {
+    color: white;
+    background-color: rgb(0, 119, 255);
+}
+
+.hearticon {
+    color: #fff;
+    background-color: rgb(233, 28, 62);
+}
+
+.likecounter {
+    font-style: 15px;
+    margin-left: 10px;
+}
+
+.commentText {
+    cursor: pointer;
+    font-style: 15px;
+    /* border-bottom: 1px dashed grey; */
+}
+
+.commentsBox {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.commentsBox h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333;
+}
+
+.commentsBox .comment {
+    margin-bottom: 6px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #555;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+
+.commentinputBox {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commentinput {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+
+.commentinputIcon {
+    /* background-color: limegreen; */
+    /* color: limegreen; */
+    color: #555;
+    font-size: 25px;
+}

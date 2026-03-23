@@ -1,0 +1,93 @@
+.FriendPage {
+    display: flex;
+}
+
+.friendpageRight {
+    flex: 10;
+    margin: 5px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.friendpageRight-left {
+    flex: 6;
+    padding: 15px 0;
+}
+
+.connection h4 {
+    padding: 20px;
+    color: #555;
+    font-size: 25px;
+}
+
+.friendpage-friends {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 40px;
+}
+
+.singleFriend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.friendpage-friend {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.friendpage-friendimage {
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    outline: 4px solid #141E30;
+    outline-offset: 2px;
+
+}
+
+.friendpage-friendname {
+    color: #555;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.follow-unfollow {
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    background-color: #141E30;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 130px;
+    text-align: center;
+}
+
+.friendpageRight-right {
+    flex: 4;
+}
+
+
+@media (max-width:500px) {
+
+    .friendpage-friends {
+        padding: 10px 20px;
+    }
+
+    .friendpage-friend {
+        gap: 20px;
+    }
+
+    .follow-unfollow {
+        width: 100px;
+        padding: 10px 20px;
+    }
+}

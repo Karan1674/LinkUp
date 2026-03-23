@@ -1,0 +1,143 @@
+
+.sidebar{
+    flex: 2;
+    width: 100%;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    background-color: #141E30;
+    /* background-color: #1b49a0; */
+    color: #fff;
+    position: sticky;
+    top: 60px;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #e2dcdc;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgb(145, 143, 143);
+}
+
+.wrapper {
+    padding: 20px;
+    position: sticky;
+}
+
+.sidebarlists {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.listitemLink{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.listitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-icon {
+    margin-right: 15px;
+    font-size: 16px;
+    
+}
+
+.sidebarline {
+    margin: 20px 0;
+    height: 2px;
+    /* width: 100%; */
+    background-color: gray;
+}
+
+.showmore {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    outline: none;
+}
+
+.sidebarfriends {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.friendimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+
+@media (max-width:800px) {
+    .showmore {
+        width: 100px;
+        padding: 8px;
+    }
+
+    .sidebar{
+        background-color: #fff;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+    
+    .sidebarline{
+        display: none;
+    }
+
+    .sidebarfrienddata {
+        display: none;
+    }
+
+    .sidebarlists {
+display: none;
+    }
+    
+
+
+  
+    .showmore {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+
+    .sidebarline{
+        display: none;
+    }
+
+    .wrapper{
+        padding: 10px 20px;
+    }
+
+    .sidebarfriends{
+        margin-top: 0px;
+        gap: 6px;
+    }
+
+    .friendimage{
+        width: 35px;
+        height: 35px;
+    }
+}
